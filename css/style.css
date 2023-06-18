@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    font-family: monospace;
+}
+
+.container{
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+.card h2{
+   font-size: 20px;
+   color: blue;
+}
+.card h1{
+    font-size: 35px;
+    color: red;
+    font-weight: bold;
+
+}
+.card p{
+    font-size: 16px;
+font-style: italic;
+    font-weight: bold;
+}
